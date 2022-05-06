@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Inventario Fácil</string>
+    <string name="title_inventario">Inventário</string>
+    <string name="title_configuracao">Configurações</string>
+    <string name="title_informacoes">Informações</string>
+    <string name="title_activity_inventario">Inventario</string>
+    <string name="title_activity_inventariar">Inventariar</string>
+    <string name="title_activity_cadproduto">Cadastro de Produtos</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_inventariar">Inventariar</string>
+    <string name="title_produtos">Produtos</string>
+    <string name="title_dispositivos">Dispositivos</string>
+    <string name="title_activity_produtos">ProdutosActivity</string>
+    <string name="title_cadastrar">Cadastrar</string>
+    <string name="title_importar">Importar</string>
+    <string name="title_exportar">Exportar</string>
+    <string name="title_salvar">Salvar</string>
+    <string name="title_excluir">excluir</string>
+
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+    <string name="nome_obrigatorio">O nome é de preenchimento obrigatório!</string>
+    <string name="endereco_obrigatorio">O endereço é de preenchimento obrigatório!</string>
+    <string name="sexo_obrigatorio">O sexo é de preenchimento obrigatório!</string>
+    <string name="data_nascimento_obrigatorio">A data de nascimento é de preenchimento obrigatório!</string>
+    <string name="registro_salvo_sucesso">Registro salvo com sucesso!</string>
+    <string name="ContextoDados_onCreate" />
+    <string name="ContextoDados_onUpgrade" />
+
+    <string name="turn_off_flashlight">Ligar a luz do Flash!</string>
+
+    <string name="message">Texto indeterminado</string>
+
+</resources>

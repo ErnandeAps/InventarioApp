@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.suportek.inventarioapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InventariarActivity"></activity>
+        <activity android:name=".DetailsActivity" />
+        <activity
+            android:name=".CadProdutoActivity"
+            android:label="Cadastro de Produtos" />
+        <activity
+            android:name=".Export_prodActivity"
+            android:label="Exportar produtos"
+            android:parentActivityName=".ProdutosActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.ProdutosActivity" />
+        </activity>
+        <activity
+            android:name=".Import_prodActivity"
+            android:label="Importar produtos"
+            android:parentActivityName=".ProdutosActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.ProdutosActivity" />
+        </activity>
+        <activity
+            android:name=".DispositivosActivity"
+            android:label="Dispositivos"
+            android:parentActivityName=".InventarioActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.InventarioActivity" />
+        </activity>
+        <activity
+            android:name=".ConfigActivity"
+            android:label="Configuração"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InformacoesActivity"
+            android:label="Informações/Notificações"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProdutosActivity"
+            android:label="Produtos"
+            android:parentActivityName=".InventarioActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.InventarioActivity" />
+        </activity>
+        <activity
+            android:name=".InventarioActivity"
+            android:label="Inventário"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.suportek.inventarioapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

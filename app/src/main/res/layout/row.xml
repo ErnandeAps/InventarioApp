@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/rowLayout"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/CodEan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="CodEan"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CodEan"
+            android:layout_alignParentLeft="true"
+            android:gravity="right"
+            android:text="Produto"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Qtd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Produto"
+            android:layout_alignParentLeft="true"
+            android:text="Qtd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12sp" />
+</RelativeLayout>
